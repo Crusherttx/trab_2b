@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- Estrutura HTML da página inicial do site -->
+<!-- lang define o idioma da página-->
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- As tags a seguir, title e link, definem o nome e ícone da página que serão exibidos no aba do navegador -->
+    <title>Linguagens de Programação</title>
+    <link rel="icon" type="icon" href="icone a decidir">
+
+    <!-- A seguir estão sendo linkados os arquivos css que definirão a estilização da página -->
+    <!-- reset.css resetá/zera/normaliza todo e qualquer estilo predefinido pelo navegador -->
+    <!-- style.css define a estilização a ser aplicada na página -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Cabeçalho da página: logo e nome do site -->
+    <header id="topo">
+        <img class="logo" src="imagem a definir" alt="Pinguim, logo do Linux">
+        <h1 class="titulo">Linguagem de Programação</h1>
+    </header>
+
+    <!-- Menu de Navegação -->
+    <nav>
+        <ul class="menu">
+            <li class="item-menu"><a href="index.html">Home</a></li>
+            <li class="item-menu"><a href="c#.html">C#</a></li>
+            <li class="item-menu"><a href="pyton.html">Pyton</a></li>
+            <li class="item-menu"><a href="javascript.html">Java Script</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo, parte principal da página, será dividido em 3 seções -->
+    <main>
+        <!-- Seção 1: contém imagem e texto -->
+        <section class="linguagem-info">
+            <h2 class="titulo-section">Técnico em Informática</h2>
+            <img class="curso-img" src="imagem a definir" alt="Imagem ilustrativa representando a programação.">
+            <p class="linguagem-paragrafo">A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado - que informará instruções de processamento ao computador. Permite que um programador especifique precisamente quais os dados que o computador irá atuar, como estes dados serão armazenados ou transmitidos e, quais ações devem ser tomadas de acordo com as circunstâncias. Linguagens de programação podem ser usadas para expressar algoritmos com precisão.</p>
+            <p>O conjunto de palavras, compostos de acordo com essas regras, constituem o código fonte de um software. Esse código fonte é depois traduzido para código de máquina, que é executado pelo microprocessador.</p>
+        </section>
+
+        <!-- Seção 2: contém um vídeo -->
+        <section>
+            <h2 class="titulo-section">Vídeo</h2>
+            <iframe class="video" src="https://www.youtube.com/embed/_sWdo0BZ7DM" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+        <!-- Seção 3: contém uma mapa -->
+        <section id="section-maps">
+            <h2 class="titulo-section">CEEP PG</h2>
+            <p>O Centro Estadual de Educação Profissional de Ponta Grossa fica no bairro Colônia Dona Luiza.</p>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.066149569323!2d-50.164826421702756!3d-25.133454360728635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e81b654b1039bb%3A0x4b526f88fdf826a8!2sCentro%20Estadual%20de%20Educa%C3%A7%C3%A3o%20Profissional%20de%20Ponta%20Grossa!5e0!3m2!1spt-BR!2sbr!4v1685052153620!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <aside class="sidebar">
+            <h3 class="sidebar-titulo">Parceiros</h3>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/felipreto.jpg"
+                    alt="FeliPreto"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/jamorim.jpg"
+                    alt="João Amorim"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/roboman.jpg" alt="Roboman"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/scobra.jpg"
+                    alt="Stalone Cobra"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/titanic666.jpg"
+                    alt="Titanic 666"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/cats.jpg" alt="Cats"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/miguelito.jpg"
+                    alt="Miguelito"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/decreptos.jpg"
+                    alt="Decréptos"></a>
+            <a class="sidebar-links" href=""><img class="sidebar-banners" src="imagens/room.jpg" alt="The Room"></a>
+            <p class="sidebar-info">Todos os parceiros são testados e aprovados pelos mestres do vacilo.</p>
+            <img class="sidebar-img" src="imagens/selo.png" alt="Selo Vacilo de Qualidade">
+        </aside>
+
+        <a class="btn_topo" href="#topo" title="Voltar ao Início">&#8657</a>
+
+    </main>
+
+    <!-- Rodapé da página: contém o logo e texto -->
+    <footer>
+        <img class="logo-rodape" src="imagens/linux_logo.png" alt="Pinguim, logo do Linux">
+        <p class="texto-rodape">Site modelo produzido para aprendizagem de Programação Web.</p>
+        <p class="texto-rodape">Nenhum direito reservado. Uncreative Commons.</p>
+        <p class="texto-rodape" style="font-size: 80px;">&#9982;</p>
+    </footer>
+</body>
+
+</html>
